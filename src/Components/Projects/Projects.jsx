@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import xyzparlour from "../../assets/xyzparlour.png";
+import fierbase_otp from "../../assets/fierbase_otp.png";
 import { FaReact, FaHardHat } from "react-icons/fa";
 import {
   SiBlockchaindotcom,
@@ -76,26 +77,27 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/MPzWN49/weather-app.png"
-                    alt="Sk-Weather-App"
+                    src={fierbase_otp}
+                    alt="Fierbase Mobile otp verification"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>SK Weather App</h2>
+                <h2>Firebase OTP</h2>
                 <p>
                   {/* Location based weather app. User can also search for their
                   cities and pickup location from map to see weather data of
                   respective places. */}
                 </p>
                 <div>
+                <FaReact />
                   <DiCss3 />
                   <SiHtml5 />
                   <IoLogoJavascript />
                 </div>
                 <div>
                   <a
-                    href="https://sk-weather-app.netlify.app/weather-app.html"
+                    href="https://firebasemobileotp.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -104,7 +106,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/Weather-App"
+                    href="https://github.com/rampratapkashyap/Firebase-mobile-otp-verification"
                     target="_blank"
                     rel="noreferrer"
                   >
