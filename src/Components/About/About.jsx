@@ -20,7 +20,7 @@ export const About = () => {
         <Type />
         <p className="about__desc" data-aos="fade-right">
           Passionate and creative Frontend Developer. Attired with a variety of tools & technologies and keen to
-          learn new one. Worked on react js since last 3 years and working
+          learn new one. Worked on react js since last 2 years and working
           5+ projects till now.
         </p>
         <div className="about__contact center">

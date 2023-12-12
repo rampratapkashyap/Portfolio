@@ -26,7 +26,7 @@ export const Introduction = () => {
                 <span className="different">
                  Gorakhpur {" "}
                 </span>
-                . I have completed my graduation in BTech (CS&E)
+                . I have completed my graduation in B.Tech (CS&E)
                 from{" "}
                 <span className="different">
                   Dr. A.P.J. Abdul Kalam Techinical University ,Lucknow (AKTU) .
