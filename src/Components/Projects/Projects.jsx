@@ -1,7 +1,9 @@
 import React from "react";
 import "./Projects.css";
 import xyzparlour from "../../assets/xyzparlour.png";
+import imavatar from "../../assets/imavatar.png";
 import fierbase_otp from "../../assets/fierbase_otp.png";
+import ecommerce from "../../assets/ecommerce.png";
 import { FaReact, FaHardHat } from "react-icons/fa";
 import {
   SiBlockchaindotcom,
@@ -10,6 +12,7 @@ import {
   SiChai,
   SiEthereum,
   SiExpress,
+  SiRedux,
   SiSocketdotio,
   SiTailwindcss,
   SiReactrouter,
@@ -31,13 +34,13 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src={xyzparlour}
+                    src={ecommerce}
                     alt="xyz parlour"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2> XYZ  Parlour</h2>
+                <h2>Ecommerce</h2>
                 <p>
                   {/* Rockstar games is a video game company who develops lots of
                   games like GTA, Red Dead, and many more. we build clone of
@@ -45,13 +48,14 @@ export const Projects = () => {
                 </p>
                 <div>
                   <FaReact />
+                  <SiRedux />
                   <DiCss3 />
                   <SiHtml5 />
                   <IoLogoJavascript />
                 </div>
                 <div>
                   <a
-                    href="https://xyzparlour.netlify.app//"
+                    href=""
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -60,7 +64,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/rampratapkashyap/Parlour-website.git"
+                    href="https://github.com/rampratapkashyap/E-commerce"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -77,27 +81,28 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src={fierbase_otp}
+                    src={imavatar}
                     alt="Fierbase Mobile otp verification"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Firebase OTP</h2>
+                <h2>imavatar.com</h2>
                 <p>
                   {/* Location based weather app. User can also search for their
                   cities and pickup location from map to see weather data of
                   respective places. */}
                 </p>
                 <div>
-                <FaReact />
+                  <FaReact />
+                  <SiRedux />
                   <DiCss3 />
                   <SiHtml5 />
                   <IoLogoJavascript />
                 </div>
                 <div>
                   <a
-                    href="https://firebasemobileotp.netlify.app/"
+                    href="https://www.imavatar.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -122,33 +127,37 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src="https://i.ibb.co/M2qW7xL/apijs-npm.png" alt="" />
+                  <img
+                    src={xyzparlour}
+                    alt="xyz parlour"
+                  />
                 </div>
               </div>
               <div className="project_information">
-                <h2>APIJS Mongo</h2>
+                <h2> XYZ  Parlour</h2>
                 <p>
                   {/* APIJS Mongo is the open source liabrary which helps you to
                   create backend API's in Node.js just by using simple methods
                   like connectToMongoDB() & createUserAPI(). */}
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                  <FaReact />
+                  <DiCss3 />
+                  <SiHtml5 />
+                  <IoLogoJavascript />
                 </div>
                 <div>
                   <a
-                    href="https://www.npmjs.com/package/apijs-mongo"
+                    href="https://xyzparlour.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      View NPM Package
+                      See this Live
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/API.JS-Mongo"
+                    href="https://github.com/rampratapkashyap/Parlour-website.git"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -166,35 +175,36 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/branding/dropbox-logo@2x.jpg"
-                    alt=""
+                    src={fierbase_otp}
+                    alt="Fierbase Mobile otp verification"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>DropBox Clone -Backend</h2>
+                <h2>Firebase OTP</h2>
                 <p>
-                  {/* Backend API for a google drive like app built using NodeJS,
-                  Express, Mongoose, MongoDB Atlas and AWS S3 for storage. CRUD
-                  operations for users, files and folders. */}
+                  {/* Location based weather app. User can also search for their
+                  cities and pickup location from map to see weather data of
+                  respective places. */}
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                  <FaReact />
+                  <DiCss3 />
+                  <SiHtml5 />
+                  <IoLogoJavascript />
                 </div>
                 <div>
                   <a
-                    href="https://drive-system.herokuapp.com/user/"
+                    href="https://firebasemobileotp.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span type="button" className="btns onbt onbt">
-                      URL for the API
+                    <span type="button" className="btns onbt">
+                      See this Live
                     </span>
                   </a>
                   <a
-                    href="https://github.com/imbickydutta/file-system-backend"
+                    href="https://github.com/rampratapkashyap/Firebase-mobile-otp-verification"
                     target="_blank"
                     rel="noreferrer"
                   >
