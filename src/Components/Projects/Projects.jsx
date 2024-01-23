@@ -3,6 +3,7 @@ import "./Projects.css";
 import xyzparlour from "../../assets/xyzparlour.png";
 import imavatar from "../../assets/imavatar.png";
 import fierbase_otp from "../../assets/fierbase_otp.png";
+import iflipinvest from "../../assets/iflipinvest.png";
 import ecommerce from "../../assets/ecommerce.png";
 import { FaReact, FaHardHat } from "react-icons/fa";
 import {
@@ -111,7 +112,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/rampratapkashyap/Firebase-mobile-otp-verification"
+                    href="https://private_source_code"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -221,13 +222,13 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/934WpdD/uniqlo-clone.png"
-                    alt="Uniqlo-Clone"
+                    src={iflipinvest}
+                    alt="iflipinvest.com"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Uniqlo Clone</h2>
+                <h2>iflipinvest.com</h2>
                 <p>
                   {/* UNIQLO is a clothing apparel company, from Japan. They also
                   sell their products in online mode through their website. We
@@ -242,7 +243,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://uniqlo-clone.netlify.app/"
+                    href="https://iflipinvest.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -251,7 +252,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/uniqlo-backend-2"
+                    href="https://private_source_code"
                     target="_blank"
                     rel="noreferrer"
                   >

@@ -118,7 +118,7 @@ export const Timeline = () => {
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
-            icon={<SchoolIcon />}
+            icon={<WorkIcon />}
           >
             <h3
               className="vertical-timeline-element-title"
@@ -130,13 +130,13 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              React js Developer (Full Time)
+              React js Developer (Intern)
             </h4>
             <p data-aos="fade-right">
               Html ,Css ,Javascript ,React js ,Bootstrap ,Tailwind Css ,Material Ui
             </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
+          {/* <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={"Jul 2021 - Dec 2021"}
             contentStyle={{
@@ -171,7 +171,7 @@ export const Timeline = () => {
             <p data-aos="fade-right">
               Html ,Css ,Javascript
             </p>
-          </VerticalTimelineElement>
+          </VerticalTimelineElement> */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={"2016 - 2020"}
@@ -190,7 +190,7 @@ export const Timeline = () => {
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
-            icon={<WorkIcon />}
+            icon={<SchoolIcon />}
           >
             <h3
               className="vertical-timeline-element-title"
