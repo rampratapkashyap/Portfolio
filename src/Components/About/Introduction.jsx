@@ -52,7 +52,7 @@ export const Introduction = () => {
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                YouTuber {" "}
+                Web Developer{" "}
               </h4>
             </div>
           </div>
