@@ -24,24 +24,18 @@ export const Introduction = () => {
                 Hi, My name is{" "}
                 <span className="different">Rampratap kashyap </span> and I am from{" "}
                 <span className="different">
-                 Gorakhpur {" "}
+                  Gorakhpur {" "}
                 </span>
                 . I have completed my graduation in B.Tech (CS&E)
                 from{" "}
                 <span className="different">
                   Dr. A.P.J. Abdul Kalam Techinical University ,Lucknow (AKTU) .
-                </span><br/>
-                 High level experience in Website and  {" "}
+                </span><br />
+                High level experience in Website and  {" "}
                 <span className="different">Single Page Application </span>
                 development knowledge, producing quality work and maney more..
               </h4>
               <h4>Terms That can describe me apart form Coding :</h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                React js Developer [SPA] {" "}
-              </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
@@ -52,7 +46,13 @@ export const Introduction = () => {
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Web Developer{" "}
+                React js Developer [SPA]{" "}
+              </h4>
+              <h4 className="different">
+                <span className="icons">
+                  <ExitToAppIcon />
+                </span>
+                Software Test Engineer{" "}
               </h4>
             </div>
           </div>
